@@ -1,2 +1,3 @@
 # Frontend-Mentor-Huddle-Landing-Page
-First Project using Frontend Mentor. Building a responsive landing page.
+This is my first ever Web Development project.
+Working on building this responsive landing page using Frontend Mentor.

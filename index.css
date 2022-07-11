@@ -335,8 +335,36 @@ body {
 
 /* Mobile Responsivness */
 @media screen and (max-width: 375px) {
-    .mockups-img img {
-        filter: blur(100%);
+    .svgdesktop-1 {
+        display: none;
+    }
+    .svgtop-desktop2 {
+        display: none;
+    }
+    .footer-svg {
+        display: none;
+    }
+    .svgdesktop-bottom-2 {
+        display: none;
+    }
+    .svgbottom-desktop2 {
+        display: none;
+    }
+    .huddle-logo {
+        height: 22px;
+        margin-left: 30px;
+    }
+    .flowing-section {
+        display: block;
+    }
+    .grow-together-section {
+        display: block;
+    }
+    .users-section {
+        display: block;
+    }
+    .footer {
+        display: block;
     }
 }
 /* Mobile Responsivness */

@@ -15,12 +15,12 @@ body {
     padding-right: 35px;
     border-radius: 100px;
     border-style: solid;
+    border-width: 1px;
     border-color: hsl(322, 100%, 66%);
     color: hsl(322, 100%, 66%);
     font-family: 'Open Sans', sans-serif;
     float: right;
     margin: 60px;
-    box-shadow: 0px 1px 5px rgb(187, 187, 187);
 }
 .btn:hover {
     background-color: hsl(323, 100%, 81%);
@@ -78,7 +78,7 @@ body {
 .mockups-img {
     justify-content: center;
     display: flex;
-    margin-top: 120px;
+    margin-top: 110px;
 }
 /* Mockups end */
 
@@ -335,9 +335,6 @@ body {
 
 /* Mobile Responsivness */
 @media screen and (max-width: 375px) {
-    html {
-        max-width: 375px;
-    }
     .svgdesktop-1 {
         display: none;
     }
@@ -379,7 +376,8 @@ body {
         display: block;
     }
     .mockups-img img {
-        height: 250px;
+        height: 215px;
+        margin-bottom: 80px;
     }
     .grow-together-section img {
         height: 250px;
@@ -421,6 +419,136 @@ body {
     }
     .center-text-community br {
         display: none;
+    }
+    .btn2 {
+        font-size: 13px;
+        padding: 12px 40px 12px 40px;
+        font-weight: 600;
+    }
+    .communities-formed {
+        padding: 20px;
+    }
+    .communities-formed img {
+        margin-left: 80px;
+    }
+    .communities-formed h1 {
+        font-size: 60px;
+    }
+    .communities-formed p {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .messages-sent {
+        padding: 0%;
+    }
+    .messages-sent img {
+        margin-left: 105px;
+    }
+    .messages-sent h1 {
+        font-size: 55px;
+        text-align: center;
+    }
+    .messages-sent p {
+        font-size: 15px;
+        margin-left: 140px;
+        margin-right: 140px;
+        margin-top: 5px;
+    }
+    /* Grow together section - CSS Grid / Specifying Row Placement */
+    .grow-together-section {
+        display: grid;
+        grid-template-rows: 160px 160px;
+    }
+    .grow-together-img-container {
+        justify-content: center;
+        display: flex;
+        grid-row-start: 1;
+    }
+    .grow-txt {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .grow-txt h1 {
+        font-size: 20px
+    }
+    .grow-txt p {
+        font-size: 14px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .grow-txt br {
+        display: none;
+    }
+    /* Grow together - CSS Grid rows end */
+    .flowing-txt {
+        text-align: center;
+        padding-top: 80px;
+    }
+    .flowing-txt br {
+        display: none;
+    }
+    .flowing-txt h1 {
+        font-size: 20px;
+    }
+    .flowing-txt p {
+        margin-left: 26px;
+        margin-right: 26px;
+        font-size: 14px;
+    }
+    .flowing-img {
+        justify-content: center;
+        display: flex;
+    }
+    
+    /* Users Section - CSS Grid Rows - Specifying Row Placement */
+    .users-section {
+        display: grid;
+        grid-template-rows: 200px 200px;
+    }
+    .users-img {
+        grid-row-start: 1;
+        justify-content: center;
+        display: flex;
+    }
+    /* Users Section - CSS Grid Rows End */
+
+    .user-txt {
+        padding: 0px;
+        text-align: center;
+    }
+    .user-txt br {
+        display: none;
+    }
+    .user-txt h1 {
+        font-size: 20px;
+    }
+    .user-txt p {
+        font-size: 14px;
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+
+
+
+    .ready-section h1 {
+        font-size: 25px;
+    }
+    .ready-button a {
+        font-size: 13px;
+        padding: 12px 40px 12px 40px;
+        font-weight: 600;
+    }
+
+
+
+    .footer {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        padding: 0px;
+        gap: 20px;
+    }
+    .right-txt-field {
+        grid-row-start: 1;
     }
 }
 /* Mobile Responsivness */
